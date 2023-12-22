@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-main: #a9a4ce;
+    --color-green: #05623b;
+    --color-brown: #1f1109;
+    --color-secondary: #79829c;
+    --color-blue-sky: #6cbcb4;
+}
+
+.wrapper{
+    background-color: var(--color-main);
+}
+
+.header-content{
+    background-color: var(--color-green);
+    color: var(--color-brown);
+    
+}
+
+.main-title{
+    padding: 1rem .5rem;
+    display: inline;
+}
+
+.navbar-content{
+    padding: 2rem;
+}
+
+.ul-content{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-content li {
+    display: inline; /* Muestra los elementos en línea para que estén uno al lado del otro */
+    margin-right: 20px; /* Ajusta el espacio entre los elementos según tu preferencia */
+}
+
+.ul-content li a {
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    color: white; /* Cambia el color del texto según tu preferencia */
+    font-weight: bold; /* Opcional: Añade negrita al texto del enlace */
+}
+
+.ul-content li a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre el enlace */
+}
